@@ -1,0 +1,16 @@
+{
+  "_comment": "A modern NIST SP 800-63B-aligned policy.",
+  "min_length": 14,
+  "max_length": 0,
+  "require_uppercase": false,
+  "require_lowercase": false,
+  "require_digit": false,
+  "require_special": false,
+  "expiration_days": 0,
+  "history_count": 5,
+  "lockout_threshold": 5,
+  "screen_breached": true,
+  "mfa_required": true,
+  "allow_paste": true,
+  "password_hints": false
+}

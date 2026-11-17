@@ -1,0 +1,16 @@
+{
+  "_comment": "A typical outdated corporate policy: short, complex, rotated often, no MFA.",
+  "min_length": 6,
+  "max_length": 16,
+  "require_uppercase": true,
+  "require_lowercase": true,
+  "require_digit": true,
+  "require_special": true,
+  "expiration_days": 90,
+  "history_count": 3,
+  "lockout_threshold": 0,
+  "screen_breached": false,
+  "mfa_required": false,
+  "allow_paste": false,
+  "password_hints": true
+}
